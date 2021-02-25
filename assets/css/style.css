@@ -858,13 +858,19 @@ img {
 }
 #mu-our-teacher .mu-our-teacher-area {
   align-self: center;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 
   width: 100%;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content {
   align-self: center;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 50px;
   width: 100%;
 }
@@ -872,8 +878,11 @@ img {
   .mu-our-teacher-area
   .mu-our-teacher-content
   .mu-our-teacher-single {
-  display: inline;
-  float: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
   width: 100%;
 }
 #mu-our-teacher
@@ -3086,4 +3095,11 @@ img {
   align-items: center;
   align-content: center;
   text-align: center;
+}
+
+#teacher-card.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
