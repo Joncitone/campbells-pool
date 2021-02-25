@@ -1,9 +1,9 @@
-/* 
- * Some Default Styles are provided for your convenience. 
+/*
+ * Some Default Styles are provided for your convenience.
  * You can start adding your own CSS below line 60.
  */
 
- * {
+* {
   box-sizing: border-box;
 }
 
@@ -26,7 +26,12 @@ h2 {
   font-weight: normal;
 }
 
-h1, h2, h3, h4, p, nav {
+h1,
+h2,
+h3,
+h4,
+p,
+nav {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -52,7 +57,7 @@ section h2 {
   margin: 60px 0;
 }
 section h2:after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -20px;
   width: 60px;
@@ -67,45 +72,73 @@ header {
   background-color: rgba(37, 37, 37, 0.8);
 }
 
-/* 
+/*
  * YOUR CSS:
  */
- header {
-   position: fixed;
-   top: 0;
-   left: 15px;
-   right: 15px;
-   z-index: 1;
-   border-radius: 0px 0px 20px 20px;
-   display: flex;
-   justify-content: space-between;
- }
+header {
+  position: fixed;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  z-index: 1;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
- .logo {
-   align-self: center;
- }
+.logo {
+  align-self: center;
+}
 
- .logo img {
+.logo img {
   height: 50px;
   padding: 0px 20px;
- }
+}
 
- header nav {
+header nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
- }
+}
 
- header nav .nav-item {
-   padding: 10px;
- }
+header nav .nav-item {
+  padding: 10px;
+}
 
- header nav a {
-   color: white;
-   text-decoration: none;
-   font-size: 1.5rem;
-   padding: 0px 20px;
- }
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0px 20px;
+}
+
+#about-us-paragraph {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+.products-and-services-containter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.products-services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+#product-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+
 #about {
   text-align: center;
   align-content: center;
@@ -116,31 +149,31 @@ header {
   display: flex;
   justify-content: center;
 }
- #about > div {
-   display: flex;
-   flex-wrap: wrap;
- }
- #about > div p {
-   /* empty */
- }
- #about > div div {
-   /* empty */
+#about > div {
+  display: flex;
+  flex-wrap: wrap;
 }
- #gallery > div {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   text-align: center;
- }
- .gallery-profile {
+#about > div p {
+  /* empty */
+}
+#about > div div {
+  /* empty */
+}
+#gallery > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.gallery-profile {
   flex: 0 0 30%;
- }
- #intro-text {
-   position: absolute;
-   top: 300px;
-   left: 0px;
-   right: 0px;
-   text-align: center;
-   color: black;
-   text-shadow: black 2px 2px 3px;
- }
+}
+#intro-text {
+  position: absolute;
+  top: 300px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  color: black;
+  text-shadow: black 2px 2px 3px;
+}
