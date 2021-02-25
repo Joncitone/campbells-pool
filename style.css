@@ -153,12 +153,7 @@ header nav a {
   display: flex;
   flex-wrap: wrap;
 }
-#about > div p {
-  /* empty */
-}
-#about > div div {
-  /* empty */
-}
+
 #gallery > div {
   display: flex;
   flex-wrap: wrap;

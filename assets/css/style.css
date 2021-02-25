@@ -763,7 +763,7 @@ img {
   width: 100%;
 }
 .mu-latest-course-single .mu-latest-course-img .mu-latest-course-imgcaption a {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -821,7 +821,7 @@ img {
   .mu-latest-course-single-content
   .mu-latest-course-single-contbottom
   .mu-course-details {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -843,7 +843,7 @@ img {
   .mu-latest-course-single-content
   .mu-latest-course-single-contbottom
   .mu-course-price {
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
 }
 
@@ -1239,7 +1239,7 @@ img {
   margin-top: 5px;
 }
 .mu-blog-single-item .mu-blog-meta a {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   letter-spacing: 0.5px;
   margin-right: 10px;
@@ -1250,7 +1250,7 @@ img {
   transition: all 0.5s;
 }
 .mu-blog-single-item .mu-blog-meta span {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
 }
 .mu-blog-single-item .mu-blog-meta span i {
@@ -1573,7 +1573,7 @@ img {
   ul
   li
   span:first-child {
-  display: inline-block;
+  /* display: inline-block; */
   min-width: 150px;
   float: left;
 }
